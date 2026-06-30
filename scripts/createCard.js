@@ -8,7 +8,7 @@ export function createCard(product){
 
     const productName = document.createElement('a')
     productName.textContent=product.title
-    productName.href = "./pages/product.html?id=" + product.id
+    productName.href = "/Practica2/pages/product.html?id=" + product.id
     
 
     //agregando todos los hijos al card
