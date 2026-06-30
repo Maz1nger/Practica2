@@ -1,6 +1,6 @@
 export const redirectLogin = () => {
      if(!localStorage.getItem('token')){
-        location.href='./Practica2/pages/login.html'
+        location.href='./pages/login.html'
     }
 }
 
@@ -12,6 +12,6 @@ export const redirectProducts = () => {
 
 export const logout = () => {
     localStorage.removeItem('token')
-    location.href='./Practica2/pages/login.html'
+    location.href='./pages/login.html'
 }
 
